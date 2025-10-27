@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "be5166ae-a759-41e7-bba3-e483fd8715ba",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Browser (Frontend)",
@@ -199,6 +199,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -282,7 +283,6 @@
               ]
             },
             "id": "cbf50536-84ee-48b0-a7ed-2884b7d693ea",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Web Server",
@@ -455,6 +455,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -538,7 +539,6 @@
               ]
             },
             "id": "36d78d57-56ce-45f1-892e-c1d2ec704c12",
-            "zIndex": 3,
             "data": {
               "type": "tm.Store",
               "name": "Database Server",
@@ -576,6 +576,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -669,8 +670,7 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "zIndex": 4
+            }
           }
         ],
         "description": "Base Template"
