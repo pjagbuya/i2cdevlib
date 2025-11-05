@@ -2323,14 +2323,7 @@
               "privilegeLevel": "",
               "threats": []
             },
-            "zIndex": 3,
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
-            }
+            "zIndex": 3
           },
           {
             "position": {
@@ -2835,6 +2828,80 @@
                 "y": 320
               }
             ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              ""
+            ],
+            "id": "cad9fad1-bd1f-42e0-8029-fdc75ba4d01d",
+            "source": {
+              "x": 356,
+              "y": 30
+            },
+            "target": {
+              "x": 350,
+              "y": 420
+            },
+            "vertices": [
+              {
+                "x": 440,
+                "y": 130
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              ""
+            ],
+            "id": "e3094ca6-5221-4a3a-94be-77979b55cc2a",
+            "source": {
+              "x": 693,
+              "y": 30
+            },
+            "target": {
+              "x": 740,
+              "y": 450
+            },
+            "vertices": [
+              {
+                "x": 650,
+                "y": 170
+              }
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           }
         ],
         "description": "Section 5.2.3"
