@@ -947,8 +947,8 @@
         "cells": [
           {
             "position": {
-              "x": -137.5,
-              "y": 150
+              "x": -400,
+              "y": 255
             },
             "size": {
               "width": 170,
@@ -1064,8 +1064,8 @@
           },
           {
             "position": {
-              "x": 393,
-              "y": 120
+              "x": 203,
+              "y": 240
             },
             "size": {
               "width": 310,
@@ -1184,8 +1184,8 @@
           },
           {
             "position": {
-              "x": 945,
-              "y": 135
+              "x": 845,
+              "y": 240
             },
             "size": {
               "width": 290,
@@ -1304,8 +1304,8 @@
           },
           {
             "position": {
-              "x": 478,
-              "y": 540
+              "x": 283,
+              "y": 660
             },
             "size": {
               "width": 150,
@@ -1446,271 +1446,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Returns pending orders",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Returns pending orders"
-            ],
-            "id": "a93a2053-6260-422b-bcc0-9ed21dd22504",
-            "source": {
-              "x": 120,
-              "y": 350
-            },
-            "target": {
-              "x": -110,
-              "y": 370
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            },
-            "vertices": [
-              {
-                "x": -50,
-                "y": 350
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Request to\nupdate order status",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Request to\nupdate order status"
-            ],
-            "id": "b13767cc-977b-40ab-ac27-fa3dd641b070",
-            "source": {
-              "x": -220,
-              "y": 430
-            },
-            "target": {
-              "x": 20,
-              "y": 390
-            },
-            "vertices": [
-              {
-                "x": -70,
-                "y": 430
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Request to view \nincoming orders",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Request to view \nincoming orders"
-            ],
-            "id": "231ee101-8017-48e0-b43c-c5e4cf3012d5",
-            "source": {
-              "x": -90,
-              "y": 300
-            },
-            "target": {
-              "x": 170,
-              "y": 280
-            },
-            "vertices": [
-              {
-                "x": 10,
-                "y": 280
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Login confirmed",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Login confirmed"
-            ],
-            "id": "8aecae36-73c7-40df-85f9-4e4647f27a44",
-            "source": {
-              "x": 100,
-              "y": 80
-            },
-            "target": {
-              "x": -150,
-              "y": 80
-            },
-            "vertices": [
-              {
-                "x": -20,
-                "y": 40
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Barista logs in",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Barista logs in"
-            ],
-            "id": "84f7b68c-2051-4700-9e82-4db465424a59",
-            "source": {
-              "x": -110,
-              "y": 140
-            },
-            "target": {
-              "x": 180,
-              "y": 120
-            },
-            "vertices": [
-              {
-                "x": 20,
-                "y": 70
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Returns auth info",
               "description": "",
               "outOfScope": false,
@@ -1728,21 +1463,21 @@
             ],
             "id": "33da3b74-0f91-474d-88fe-4fc763774ce3",
             "source": {
-              "x": 460,
-              "y": 560
+              "x": 270,
+              "y": 680
             },
             "target": {
-              "x": 490,
-              "y": 240
+              "x": 300,
+              "y": 360
             },
             "vertices": [
               {
-                "x": 390,
-                "y": 490
+                "x": 200,
+                "y": 610
               },
               {
-                "x": 440,
-                "y": 320
+                "x": 250,
+                "y": 440
               }
             ]
           },
@@ -1783,21 +1518,21 @@
             ],
             "id": "c3359567-77dd-4da8-b416-65d1ece7ffd2",
             "source": {
-              "x": 480,
-              "y": 230
+              "x": 290,
+              "y": 350
             },
             "target": {
-              "x": 430,
-              "y": 580
+              "x": 240,
+              "y": 700
             },
             "vertices": [
               {
-                "x": 320,
-                "y": 300
+                "x": 130,
+                "y": 420
               },
               {
-                "x": 280,
-                "y": 470
+                "x": 90,
+                "y": 590
               }
             ]
           },
@@ -1838,17 +1573,17 @@
             ],
             "id": "cd1eedf3-0b82-465f-a0a1-739870ce62d3",
             "source": {
-              "x": 590,
-              "y": 520
+              "x": 400,
+              "y": 640
             },
             "target": {
-              "x": 600,
-              "y": 260
+              "x": 410,
+              "y": 380
             },
             "vertices": [
               {
-                "x": 660,
-                "y": 390
+                "x": 470,
+                "y": 510
               }
             ]
           },
@@ -1889,12 +1624,12 @@
             ],
             "id": "015c5cc5-9bbe-4157-a3a5-7945c3ae966b",
             "source": {
-              "x": 550,
-              "y": 260
+              "x": 360,
+              "y": 380
             },
             "target": {
-              "x": 500,
-              "y": 520
+              "x": 310,
+              "y": 640
             },
             "vertices": []
           },
@@ -1935,36 +1670,284 @@
             ],
             "id": "95ef6acf-fc44-4bbc-a7dc-26ab742c6f91",
             "source": {
-              "x": 860,
-              "y": 290
+              "x": 1006,
+              "y": 310
             },
             "target": {
-              "x": 680,
-              "y": 580
+              "x": 470,
+              "y": 700
             },
             "vertices": [
               {
-                "x": 1006,
-                "y": 400
+                "x": 560,
+                "y": 390
+              },
+              {
+                "x": 560,
+                "y": 610
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Returns pending orders",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Returns pending orders"
+            ],
+            "id": "a93a2053-6260-422b-bcc0-9ed21dd22504",
+            "source": {
+              "x": 260,
+              "y": 320
+            },
+            "target": {
+              "x": -210,
+              "y": 340
+            },
+            "vertices": [
+              {
+                "x": -80,
+                "y": 340
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Login confirmed",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Login confirmed"
+            ],
+            "id": "8aecae36-73c7-40df-85f9-4e4647f27a44",
+            "source": {
+              "x": 270,
+              "y": 270
+            },
+            "target": {
+              "x": -210,
+              "y": 260
+            },
+            "vertices": [
+              {
+                "x": -90,
+                "y": 240
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request to view \nincoming orders",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Request to view \nincoming orders"
+            ],
+            "id": "231ee101-8017-48e0-b43c-c5e4cf3012d5",
+            "source": {
+              "x": -190,
+              "y": 290
+            },
+            "target": {
+              "x": 270,
+              "y": 300
+            },
+            "vertices": [
+              {
+                "x": -60,
+                "y": 290
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Barista logs in",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Barista logs in"
+            ],
+            "id": "84f7b68c-2051-4700-9e82-4db465424a59",
+            "source": {
+              "x": -250,
+              "y": 220
+            },
+            "target": {
+              "x": 280,
+              "y": 240
+            },
+            "vertices": [
+              {
+                "x": -160,
+                "y": 220
+              },
+              {
+                "x": -50,
+                "y": 200
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request to\nupdate order status",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Request to\nupdate order status"
+            ],
+            "id": "b13767cc-977b-40ab-ac27-fa3dd641b070",
+            "source": {
+              "x": -240,
+              "y": 370
+            },
+            "target": {
+              "x": 270,
+              "y": 340
+            },
+            "vertices": [
+              {
+                "x": -50,
+                "y": 380
               }
             ],
             "tools": {
               "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
                 "boundary",
                 "button-remove",
                 "vertices",
