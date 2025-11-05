@@ -1970,12 +1970,12 @@
         "cells": [
           {
             "position": {
-              "x": 0,
-              "y": 160
+              "x": 22.499999999999943,
+              "y": 130.00000000000003
             },
             "size": {
-              "width": 112.5,
-              "height": 60
+              "width": 110,
+              "height": 90
             },
             "attrs": {
               "text": {
@@ -2087,12 +2087,12 @@
           },
           {
             "position": {
-              "x": 490,
-              "y": 140
+              "x": 420,
+              "y": 90
             },
             "size": {
-              "width": 130,
-              "height": 100
+              "width": 230,
+              "height": 150
             },
             "attrs": {
               "text": {
@@ -2207,8 +2207,8 @@
           },
           {
             "position": {
-              "x": 982,
-              "y": 140
+              "x": 900,
+              "y": 125.00000000000003
             },
             "size": {
               "width": 130,
@@ -2323,12 +2323,19 @@
               "privilegeLevel": "",
               "threats": []
             },
-            "zIndex": 3
+            "zIndex": 3,
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
+            }
           },
           {
             "position": {
               "x": 490,
-              "y": 529
+              "y": 490
             },
             "size": {
               "width": 120,
@@ -2560,6 +2567,147 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
+              "name": "Requests aggregated sales data",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Requests aggregated sales data"
+            ],
+            "id": "e74c33af-f935-47ee-afb2-5eae7f7ae990",
+            "source": {
+              "x": 170,
+              "y": 190
+            },
+            "target": {
+              "x": 430,
+              "y": 190
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Returns processed sales data",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Returns processed sales data"
+            ],
+            "id": "c9b1fd89-aa55-44be-8216-1595c562c8b5",
+            "source": {
+              "x": 430,
+              "y": 220
+            },
+            "target": {
+              "x": 170,
+              "y": 220
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Returns \nauth info",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Returns \nauth info"
+            ],
+            "id": "14c60189-4d7a-478e-9467-861d2757c70b",
+            "source": {
+              "x": 530,
+              "y": 480
+            },
+            "target": {
+              "x": 510,
+              "y": 260
+            },
+            "vertices": [
+              {
+                "x": 510,
+                "y": 400
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
               "name": "Requests \nuser auth \ninfo",
               "description": "",
               "outOfScope": false,
@@ -2577,13 +2725,116 @@
             ],
             "id": "c4875e5b-6c12-4d64-80f3-126b94fe8484",
             "source": {
-              "x": 495,
-              "y": 267
+              "x": 470,
+              "y": 250
             },
             "target": {
               "x": 500,
-              "y": 460
-            }
+              "y": 480
+            },
+            "vertices": [
+              {
+                "x": 440,
+                "y": 410
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Requests\nsales data",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Requests\nsales data"
+            ],
+            "id": "e6f77e84-4cfe-4c1e-b262-cb5c8c888444",
+            "source": {
+              "x": 570,
+              "y": 250
+            },
+            "target": {
+              "x": 580,
+              "y": 480
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Returns\nsales data",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Returns\nsales data"
+            ],
+            "id": "4998253c-a678-4759-8005-5383464ab16e",
+            "source": {
+              "x": 610,
+              "y": 470
+            },
+            "target": {
+              "x": 610,
+              "y": 240
+            },
+            "vertices": [
+              {
+                "x": 650,
+                "y": 320
+              }
+            ]
           }
         ],
         "description": "Section 5.2.3"
