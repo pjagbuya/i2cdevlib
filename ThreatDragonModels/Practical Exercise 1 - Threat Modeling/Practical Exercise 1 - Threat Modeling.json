@@ -1193,7 +1193,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Payment Service"
+                "text": "Payment ServiceTrust Boundary"
               },
               "body": {
                 "stroke": "#333333",
@@ -1289,7 +1289,7 @@
             "id": "e61bcea8-89cf-44f9-9510-fdbb770258e1",
             "data": {
               "type": "tm.Process",
-              "name": "Payment Service",
+              "name": "Payment ServiceTrust Boundary",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1885,16 +1885,6 @@
               "x": 270,
               "y": 340
             },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            },
             "vertices": [
               {
                 "x": -50,
@@ -1954,6 +1944,70 @@
               {
                 "x": 560,
                 "y": 610
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              ""
+            ],
+            "id": "30150684-f300-400d-9a67-565cf67e3825",
+            "source": {
+              "x": -120,
+              "y": 60
+            },
+            "target": {
+              "x": -90,
+              "y": 570
+            },
+            "vertices": [
+              {
+                "x": -60,
+                "y": 310
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              ""
+            ],
+            "id": "6f42f23e-e0dc-4e27-91f3-dfd44ce52ef6",
+            "source": {
+              "x": 800,
+              "y": 50
+            },
+            "target": {
+              "x": 780,
+              "y": 620
+            },
+            "vertices": [
+              {
+                "x": 690,
+                "y": 330
               }
             ],
             "tools": {
