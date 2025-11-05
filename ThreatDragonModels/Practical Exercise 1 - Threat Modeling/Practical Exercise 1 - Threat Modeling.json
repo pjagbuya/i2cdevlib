@@ -1683,17 +1683,7 @@
                 "x": 310,
                 "y": 180
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            ]
           },
           {
             "shape": "flow",
@@ -1732,19 +1722,29 @@
             ],
             "id": "a93a2053-6260-422b-bcc0-9ed21dd22504",
             "source": {
-              "x": 480,
-              "y": 210
+              "x": 120,
+              "y": 350
             },
             "target": {
-              "x": 250,
-              "y": 230
+              "x": -110,
+              "y": 370
             },
             "vertices": [
               {
-                "x": 310,
-                "y": 210
+                "x": -50,
+                "y": 350
               }
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "shape": "flow",
