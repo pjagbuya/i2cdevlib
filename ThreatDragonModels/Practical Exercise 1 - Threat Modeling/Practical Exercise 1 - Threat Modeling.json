@@ -1653,61 +1653,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Reflects new order\nstatus in database",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Reflects new order\nstatus in database"
-            ],
-            "id": "95ef6acf-fc44-4bbc-a7dc-26ab742c6f91",
-            "source": {
-              "x": 1006,
-              "y": 310
-            },
-            "target": {
-              "x": 470,
-              "y": 700
-            },
-            "vertices": [
-              {
-                "x": 560,
-                "y": 390
-              },
-              {
-                "x": 560,
-                "y": 610
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Returns pending orders",
               "description": "",
               "outOfScope": false,
@@ -1940,10 +1885,75 @@
               "x": 270,
               "y": 340
             },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            },
             "vertices": [
               {
                 "x": -50,
                 "y": 380
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Reflects new order\nstatus in database",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Reflects new order\nstatus in database"
+            ],
+            "id": "95ef6acf-fc44-4bbc-a7dc-26ab742c6f91",
+            "source": {
+              "x": 440,
+              "y": 330
+            },
+            "target": {
+              "x": 470,
+              "y": 700
+            },
+            "vertices": [
+              {
+                "x": 620,
+                "y": 450
+              },
+              {
+                "x": 560,
+                "y": 610
               }
             ],
             "tools": {
