@@ -959,8 +959,8 @@
                 "text": "Client"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -1057,9 +1057,40 @@
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "providesAuthentication": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "8dbfbb64-1e9b-4c5b-a802-80cb0c96ea13",
+                  "title": "Staff Account Spoofing",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "description": "An attacker could impersonate staff to manipulate order statuses,\naccess sales reports, or modify menu items and application\nconfigurations.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 33,
+                  "score": ""
+                },
+                {
+                  "id": "b386619d-eba5-45a5-b70c-110b3982aa6e",
+                  "title": "Web Application Server Spoofing",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "description": "An attacker might set up a fraudulent web server to phish user\ncredentials or intercept sensitive data.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 36,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 2,
+                "repudiation": 0
+              }
             }
           },
           {
@@ -1076,8 +1107,8 @@
                 "text": "Backend \nWebapp Server"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -1174,12 +1205,60 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "a573ae6d-744e-4c3f-be02-a42bbbb9d26d",
+                  "title": "Staff Account Spoofing",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "description": "An attacker could impersonate staff to manipulate order statuses,\naccess sales reports, or modify menu items and application\nconfigurations.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 34,
+                  "score": ""
+                },
+                {
+                  "id": "25d1eff3-d2e5-4596-a124-061e5e2d1fed",
+                  "title": "Web Application Server Spoofing ",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "description": "An attacker might set up a fraudulent web server to phish user\ncredentials or intercept sensitive data.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 37,
+                  "score": ""
+                },
+                {
+                  "id": "027c0dec-edce-4f16-9e16-a021d7481006",
+                  "title": "Order Data Tampering ",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "An attacker could modify order details (e.g., items, quantities, prices,\nstatus) in transit or at rest.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 38,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 2,
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
             }
           },
           {
@@ -1316,11 +1395,13 @@
                 "text": "Database"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -1417,13 +1498,34 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "c687b228-a357-4fa9-9e52-e8864d74efdd",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": true,
+                  "number": 39,
+                  "score": ""
+                }
+              ]
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -3052,6 +3154,6 @@
     ],
     "diagramTop": 3,
     "reviewer": "",
-    "threatTop": 32
+    "threatTop": 44
   }
 }
