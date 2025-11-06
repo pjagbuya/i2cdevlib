@@ -2037,6 +2037,68 @@
               "y": 270
             },
             "vertices": []
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              ""
+            ],
+            "id": "a7ed5e6d-030e-4093-acc9-0f1f572fdd08",
+            "source": {
+              "x": 190,
+              "y": 70
+            },
+            "target": {
+              "x": -90,
+              "y": 790
+            },
+            "vertices": [
+              {
+                "x": 80,
+                "y": 450
+              },
+              {
+                "x": -70,
+                "y": 500
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              ""
+            ],
+            "id": "d6c69dd1-a8f1-4976-a3e8-91dbef15ef4e",
+            "source": {
+              "x": 433,
+              "y": 105
+            },
+            "target": {
+              "x": 750,
+              "y": 720
+            }
           }
         ],
         "description": "Section 5.2.2"
