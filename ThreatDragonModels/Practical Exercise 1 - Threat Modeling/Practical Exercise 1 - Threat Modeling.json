@@ -1653,61 +1653,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Reflects new order\nstatus in database",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Reflects new order\nstatus in database"
-            ],
-            "id": "95ef6acf-fc44-4bbc-a7dc-26ab742c6f91",
-            "source": {
-              "x": 1006,
-              "y": 310
-            },
-            "target": {
-              "x": 470,
-              "y": 700
-            },
-            "vertices": [
-              {
-                "x": 560,
-                "y": 390
-              },
-              {
-                "x": 560,
-                "y": 610
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Returns pending orders",
               "description": "",
               "outOfScope": false,
@@ -1945,17 +1890,153 @@
                 "x": -50,
                 "y": 380
               }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Reflects new order\nstatus in database",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Reflects new order\nstatus in database"
             ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
+            "id": "95ef6acf-fc44-4bbc-a7dc-26ab742c6f91",
+            "source": {
+              "x": 440,
+              "y": 340
+            },
+            "target": {
+              "x": 470,
+              "y": 700
+            },
+            "vertices": [
+              {
+                "x": 580,
+                "y": 450
+              },
+              {
+                "x": 560,
+                "y": 610
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Returns order status",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Returns order status"
+            ],
+            "id": "513add7a-c3e5-4410-9dc5-0d1871ac7401",
+            "source": {
+              "x": 880,
+              "y": 310
+            },
+            "target": {
+              "x": 450,
+              "y": 310
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Requests to obtain prior order status for verification",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Requests to obtain prior order status for verification"
+            ],
+            "id": "e9467cef-ceeb-47f6-8857-d33e8715b94a",
+            "source": {
+              "x": 433,
+              "y": 270
+            },
+            "target": {
+              "x": 890,
+              "y": 270
+            },
+            "vertices": []
           }
         ],
         "description": "Section 5.2.2"
