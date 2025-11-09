@@ -5366,6 +5366,80 @@
                 "y": 360
               }
             ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              ""
+            ],
+            "id": "fe6a06b0-67c1-4858-919f-1285738c3041",
+            "source": {
+              "x": 430,
+              "y": 20
+            },
+            "target": {
+              "x": 280,
+              "y": 450
+            },
+            "vertices": [
+              {
+                "x": 400,
+                "y": 200
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              ""
+            ],
+            "id": "35bac0be-7247-4bc3-b6ff-1b2b8b65ef8b",
+            "source": {
+              "x": 620,
+              "y": 0
+            },
+            "target": {
+              "x": 830,
+              "y": 470
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            },
+            "vertices": [
+              {
+                "x": 720,
+                "y": 330
+              }
+            ]
           }
         ],
         "description": "Section 5.2.1"
