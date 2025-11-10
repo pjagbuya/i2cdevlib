@@ -1001,13 +1001,13 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Trust Boundary",
+              "name": "",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             },
             "labels": [
-              "Trust Boundary"
+              ""
             ],
             "id": "39193277-e9f2-42b6-8196-222481c42783",
             "source": {
@@ -1041,13 +1041,13 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Client Boundary",
+              "name": "",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             },
             "labels": [
-              "Client Boundary"
+              ""
             ],
             "id": "be7f3f08-e174-4ad7-80ad-5faab18302d7",
             "source": {
@@ -1062,6 +1062,10 @@
               {
                 "x": 210,
                 "y": 120
+              },
+              {
+                "x": 180,
+                "y": 210
               }
             ]
           }
