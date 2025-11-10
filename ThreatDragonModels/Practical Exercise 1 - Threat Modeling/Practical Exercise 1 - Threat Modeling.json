@@ -4755,32 +4755,6 @@
               "storesInventory": false,
               "threats": [
                 {
-                  "id": "67780688-19c6-4775-a03b-dbcfaf1dae78",
-                  "title": "Customer Account Spoofing",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Tampering",
-                  "description": "An attacker could impersonate a legitimate customer to place fraudulent orders or access their order history.",
-                  "mitigation": "",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 22,
-                  "score": ""
-                },
-                {
-                  "id": "658c97ab-6a74-4dc9-8d04-990cbe3cd3c2",
-                  "title": "Staff Account Spoofing",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Tampering",
-                  "description": "An attacker could impersonate staff to manipulate order statuses, access sales reports, or modify menu items and application configurations.",
-                  "mitigation": "",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 23,
-                  "score": ""
-                },
-                {
                   "id": "ed589dc6-04c8-474a-9a19-64df8bf9ae47",
                   "title": "Order Data Tampering ",
                   "status": "Open",
@@ -4899,13 +4873,20 @@
                 }
               ],
               "threatFrequency": {
-                "tampering": 5,
+                "tampering": 3,
                 "repudiation": 2,
                 "informationDisclosure": 3,
                 "denialOfService": 1
               }
             },
-            "children": []
+            "children": [],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
+            }
           },
           {
             "position": {
@@ -5492,6 +5473,16 @@
             },
             "tools": {
               "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
                 "boundary",
                 "button-remove",
                 "vertices",
