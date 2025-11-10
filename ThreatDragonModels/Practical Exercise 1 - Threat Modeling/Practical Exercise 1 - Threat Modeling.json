@@ -669,126 +669,133 @@
                   "id": "ed589dc6-04c8-474a-9a19-64df8bf9ae47",
                   "title": "Order Data Tampering ",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Tampering",
                   "description": "An attacker could modify order details (e.g., items, quantities, prices, status) in transit or at rest.",
                   "mitigation": "",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 24,
-                  "score": ""
+                  "score": "7"
                 },
                 {
                   "id": "a93c1695-22b8-4192-9ddb-bea2cca7632b",
                   "title": "Menu Data Tampering",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Tampering",
                   "description": "An attacker could alter menu item data (e.g., prices or descriptions)\nbefore it is stored in the database",
                   "mitigation": "",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 25,
-                  "score": ""
+                  "score": "6"
                 },
                 {
                   "id": "fbf39dfa-f793-4084-9841-b19c6e0a02b9",
                   "title": "Sales Report Tampering",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Tampering",
                   "description": "Unauthorized individuals could alter sales data in the MongoDB Database, leading to falsified reports.",
                   "mitigation": "",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 26,
-                  "score": ""
+                  "score": "5"
                 },
                 {
                   "id": "411b88a0-b85f-4f53-99f7-97ba0ca257d6",
                   "title": "Fraudulent Order Repudiation",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Repudiation",
                   "description": "A customer could deny placing an order if insufficient logging and non-repudiation controls are in place.",
                   "mitigation": "",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 27,
-                  "score": ""
+                  "score": "5"
                 },
                 {
                   "id": "e338650f-aaf3-4a03-9909-ccd05a5c44ed",
                   "title": "Staff Action Repudiation",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Repudiation",
                   "description": "Staff members (Barista, Manager, Administrator) could deny performing actions if audit logs are insufficient, not immutable, or can be tampered with.",
                   "mitigation": "",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 28,
-                  "score": ""
+                  "score": "5"
                 },
                 {
                   "id": "214fb631-a038-4129-90a0-457dd3ef0ae6",
                   "title": "Customer PII Disclosure",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "High",
                   "type": "Information disclosure",
                   "description": "Unauthorized access to customer names, contact details, delivery addresses, and order history.",
                   "mitigation": "",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 29,
-                  "score": ""
+                  "score": "10"
                 },
                 {
                   "id": "8606b056-aedd-4504-bb3a-4f2ab70a0f04",
                   "title": "Staff Credential Disclosure",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "High",
                   "type": "Information disclosure",
                   "description": "Exposure of usernames, passwords, or session tokens for staff members due to insecure storage or unencrypted transmission.",
                   "mitigation": "",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 30,
-                  "score": ""
+                  "score": "10"
                 },
                 {
                   "id": "37d651ee-4cfe-479d-bc45-f031cf8ce4b1",
                   "title": "Sales Data Disclosure",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Information disclosure",
                   "description": "Unauthorized access to sales reports or underlying aggregated sales data.",
                   "mitigation": "",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 31,
-                  "score": ""
+                  "score": "7"
                 },
                 {
                   "id": "7544df1b-99cf-43ff-8877-6f0ddba20449",
                   "title": "MongoDB Database DoS",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Low",
                   "type": "Denial of service",
                   "description": "Malicious or poorly optimized queries could overload the database, making it unresponsive.",
                   "mitigation": "",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 32,
-                  "score": ""
+                  "score": "2"
                 }
               ],
               "threatFrequency": {
-                "tampering": 3,
-                "repudiation": 2,
-                "informationDisclosure": 3,
-                "denialOfService": 1
+                "tampering": 6,
+                "repudiation": 4,
+                "informationDisclosure": 6,
+                "denialOfService": 2
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
