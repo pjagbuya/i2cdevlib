@@ -176,13 +176,6 @@
                 "spoofing": 9,
                 "repudiation": 0
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -307,40 +300,40 @@
                   "id": "fdf9609f-ef82-4528-98dc-23d64e1a1b99",
                   "title": "Customer Account Spoofing",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Spoofing",
                   "description": "An attacker could impersonate a legitimate customer to place fraudulent orders or access their order history",
                   "mitigation": "",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 4,
-                  "score": ""
+                  "score": "5"
                 },
                 {
                   "id": "ef43dc7d-25b2-4469-bec0-90811c69994b",
                   "title": "Staff Account Spoofing",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Spoofing",
                   "description": "An attacker could impersonate staff to manipulate order statuses, access sales reports, or modify menu items and application configurations.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 5,
-                  "score": ""
+                  "score": "5"
                 },
                 {
                   "id": "4550056e-f50a-421d-b24c-62d3cbdbd0d1",
                   "title": "Web Application Server Spoofing",
                   "status": "Open",
-                  "severity": "TBD",
+                  "severity": "Medium",
                   "type": "Spoofing",
                   "description": "An attacker might set up a fraudulent web server to phish user credentials or intercept sensitive data.",
                   "mitigation": "",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 6,
-                  "score": ""
+                  "score": "5"
                 },
                 {
                   "id": "2fed0cbb-53d7-4b9c-ad60-e3ad4a45f55a",
@@ -539,7 +532,7 @@
                 }
               ],
               "threatFrequency": {
-                "spoofing": 3,
+                "spoofing": 6,
                 "tampering": 4,
                 "repudiation": 3,
                 "informationDisclosure": 4,
