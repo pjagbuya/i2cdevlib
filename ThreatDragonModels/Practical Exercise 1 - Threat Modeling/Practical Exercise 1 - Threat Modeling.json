@@ -4803,13 +4803,6 @@
                 "denialOfService": 6,
                 "elevationOfPrivilege": 7
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
