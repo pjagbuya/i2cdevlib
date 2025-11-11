@@ -811,7 +811,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Send new menu item data",
+              "name": "Create new item record",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -824,7 +824,7 @@
               "threats": []
             },
             "labels": [
-              "Send new menu item data"
+              "Create new item record"
             ],
             "id": "ba9c9c39-b4ab-4281-aa28-140e9c2c74c9",
             "source": {
@@ -866,7 +866,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Send success creation",
+              "name": "Confirms item creation",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -879,7 +879,7 @@
               "threats": []
             },
             "labels": [
-              "Send success creation"
+              "Confirms item creation"
             ],
             "id": "5943b912-8f8c-4810-ad99-f1599e064ee5",
             "source": {
