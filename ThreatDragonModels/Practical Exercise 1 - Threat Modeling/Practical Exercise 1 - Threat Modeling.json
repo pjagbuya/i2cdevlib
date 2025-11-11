@@ -917,7 +917,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Menu item info",
+              "name": "Send menu item info",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -930,7 +930,7 @@
               "threats": []
             },
             "labels": [
-              "Menu item info"
+              "Send menu item info"
             ],
             "id": "932f0cd9-cdbb-4b9c-9d27-c17659746b98",
             "source": {
@@ -944,6 +944,10 @@
             "vertices": [
               {
                 "x": 320,
+                "y": 110
+              },
+              {
+                "x": 370,
                 "y": 110
               }
             ]
