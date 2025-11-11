@@ -19,7 +19,7 @@
         "cells": [
           {
             "position": {
-              "x": -50,
+              "x": -40,
               "y": 90
             },
             "size": {
@@ -180,7 +180,7 @@
           },
           {
             "position": {
-              "x": 420,
+              "x": 460,
               "y": 130
             },
             "size": {
@@ -953,51 +953,6 @@
             ]
           },
           {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Send message success",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Send message success"
-            ],
-            "id": "d27766c4-5be4-4e79-8d76-12f598745377",
-            "source": {
-              "x": 420,
-              "y": 200
-            },
-            "target": {
-              "cell": "be5166ae-a759-41e7-bba3-e483fd8715ba",
-              "port": "7af6842b-f33a-4bd4-b171-603bd8b63477"
-            }
-          },
-          {
             "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
@@ -1024,8 +979,8 @@
             },
             "vertices": [
               {
-                "x": 330,
-                "y": 330
+                "x": 360,
+                "y": 340
               },
               {
                 "x": 510,
@@ -1070,6 +1025,153 @@
               {
                 "x": 180,
                 "y": 210
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Login as admin and send credentials",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Login as admin and send credentials"
+            ],
+            "id": "327ff76c-a6d3-450a-9e63-138daacf5b9d",
+            "source": {
+              "x": 150,
+              "y": 170
+            },
+            "target": {
+              "cell": "cbf50536-84ee-48b0-a7ed-2884b7d693ea",
+              "port": "5431e601-701d-4d56-9319-964d4c31bf40"
+            },
+            "vertices": [
+              {
+                "x": 300,
+                "y": 250
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Send message success",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Send message success"
+            ],
+            "id": "d27766c4-5be4-4e79-8d76-12f598745377",
+            "source": {
+              "cell": "cbf50536-84ee-48b0-a7ed-2884b7d693ea",
+              "port": "5431e601-701d-4d56-9319-964d4c31bf40"
+            },
+            "target": {
+              "cell": "be5166ae-a759-41e7-bba3-e483fd8715ba",
+              "port": "7af6842b-f33a-4bd4-b171-603bd8b63477"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Confirms login",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Confirms login"
+            ],
+            "id": "2092562a-15cc-410b-a9d0-ee1315ac3345",
+            "source": {
+              "x": 460,
+              "y": 210
+            },
+            "target": {
+              "x": 150,
+              "y": 200
+            },
+            "vertices": [
+              {
+                "x": 280,
+                "y": 340
               }
             ]
           }
