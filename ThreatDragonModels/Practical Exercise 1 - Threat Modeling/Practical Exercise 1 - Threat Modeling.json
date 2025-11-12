@@ -5193,7 +5193,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Sends Order \nConfirmation",
+              "name": "Sends Order \nConfirmation\nand Status Update",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -5206,7 +5206,7 @@
               "threats": []
             },
             "labels": [
-              "Sends Order \nConfirmation"
+              "Sends Order \nConfirmation\nand Status Update"
             ],
             "id": "87e705b2-63f7-4a73-b411-b2676a31bf6a",
             "source": {
@@ -5551,7 +5551,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Returns \nOrder\nStatus\n",
+              "name": "Returns \nOrder\nValidity \nStatus\n",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -5564,7 +5564,7 @@
               "threats": []
             },
             "labels": [
-              "Returns \nOrder\nStatus\n"
+              "Returns \nOrder\nValidity \nStatus\n"
             ],
             "id": "1f47b420-4c42-4c9c-8c2d-df1d42ead1e3",
             "source": {
@@ -5580,7 +5580,17 @@
                 "x": 470,
                 "y": 360
               }
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "shape": "trust-boundary-curve",
