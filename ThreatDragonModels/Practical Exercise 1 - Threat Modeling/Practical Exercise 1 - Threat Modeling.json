@@ -1174,6 +1174,133 @@
                 "y": 340
               }
             ]
+          },
+          {
+            "position": {
+              "x": 840,
+              "y": 130
+            },
+            "size": {
+              "width": 270,
+              "height": 130
+            },
+            "attrs": {
+              "text": {
+                "text": "Payment Service"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": "4 3"
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "3ba68836-e1d0-40dd-9000-4f9866d36785"
+                },
+                {
+                  "group": "right",
+                  "id": "c7c2e586-27e9-41a6-9fde-5182ce406879"
+                },
+                {
+                  "group": "bottom",
+                  "id": "0c3a3b14-e69e-4d59-a31d-8b843f6d1f66"
+                },
+                {
+                  "group": "left",
+                  "id": "1c6ebb85-702d-488e-9f1e-5033ae813bc2"
+                }
+              ]
+            },
+            "id": "596b168f-ed87-49c8-9111-d4c7d6b991e7",
+            "zIndex": 11,
+            "data": {
+              "type": "tm.Process",
+              "name": "Payment Service",
+              "description": "",
+              "outOfScope": true,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
+            }
           }
         ],
         "description": "Section 5.2.4"
