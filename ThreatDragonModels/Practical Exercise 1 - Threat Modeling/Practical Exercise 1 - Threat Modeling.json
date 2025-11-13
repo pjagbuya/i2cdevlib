@@ -5719,16 +5719,6 @@
               "cell": "cbf50536-84ee-48b0-a7ed-2884b7d693ea",
               "port": "38dc4e95-9fa4-40a7-90aa-8af19525958b"
             },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            },
             "vertices": [
               {
                 "x": 470,
