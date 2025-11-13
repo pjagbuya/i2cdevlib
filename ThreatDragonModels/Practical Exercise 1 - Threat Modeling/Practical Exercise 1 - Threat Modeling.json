@@ -1155,7 +1155,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Send credentials",
+              "name": "Request auth info admin",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1168,7 +1168,7 @@
               "threats": []
             },
             "labels": [
-              "Send credentials"
+              "Request auth info admin"
             ],
             "id": "e4b76ab5-275e-4a45-9643-138712aff4aa",
             "source": {
@@ -1235,17 +1235,7 @@
                 "x": 910,
                 "y": 380
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            ]
           },
           {
             "shape": "trust-boundary-curve",
