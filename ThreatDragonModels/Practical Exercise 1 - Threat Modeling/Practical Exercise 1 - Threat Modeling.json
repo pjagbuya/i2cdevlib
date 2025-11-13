@@ -1206,7 +1206,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Send validation",
+              "name": "Return auth info",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1219,7 +1219,7 @@
               "threats": []
             },
             "labels": [
-              "Send validation"
+              "Return auth info"
             ],
             "id": "9d047203-40d0-47a3-a646-4f5945f048ea",
             "source": {
