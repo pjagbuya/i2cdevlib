@@ -1245,42 +1245,34 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "",
+              "name": "Trust Boundary",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             },
             "labels": [
-              ""
+              "Trust Boundary"
             ],
-            "id": "39193277-e9f2-42b6-8196-222481c42783",
+            "id": "f7546add-4b0b-405c-b2a1-94ca82140fee",
             "source": {
-              "x": 330,
-              "y": 510
+              "x": 810,
+              "y": -70
             },
             "target": {
-              "x": 960,
-              "y": 570
+              "x": 940,
+              "y": 280
             },
             "vertices": [
               {
-                "x": 360,
-                "y": 340
-              },
-              {
-                "x": 510,
-                "y": 300
-              },
-              {
-                "x": 940,
-                "y": 300
+                "x": 730,
+                "y": 170
               }
             ]
           },
           {
             "position": {
-              "x": 840,
-              "y": 130
+              "x": 720,
+              "y": 60
             },
             "size": {
               "width": 270,
